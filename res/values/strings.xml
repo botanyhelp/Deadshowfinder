@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grateful Dead Show Finder</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="deadshowfinder">Find by date, location or song sequence</string>
+    <string name="deadshowsongs">Find by consecutive songs</string>
+    <string name="location">Find by show location</string>
+    <string name="findshow">Find Show</string>
+    <string name="date">Find by show date</string>
+    <string name="help">Help</string>
+        
+</resources>

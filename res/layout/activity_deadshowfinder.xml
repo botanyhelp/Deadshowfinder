@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".Deadshowfinder" >
+
+            <Button
+                android:id="@+id/btn_Location"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLocation"
+                android:text="@string/location" />
+
+            <Button
+                android:id="@+id/btn_Date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDate"
+                android:text="@string/date" />
+            
+            <TextView
+                android:id="@+id/txt_deadshowsongs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deadshowsongs" />
+            
+            <AutoCompleteTextView
+                android:id="@+id/txtallsongsone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <AutoCompleteTextView
+                android:id="@+id/txtallsongstwo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <AutoCompleteTextView
+                android:id="@+id/txtallsongsthree"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_findshow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickfindshow"
+                android:text="@string/findshow" />
+
+            <Button
+                android:id="@+id/btn_Help"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickHelp"
+                android:text="@string/help" />
+                        
+            <TextView
+                android:id="@+id/txt_deadshowfinder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="70"
+                android:text="@string/deadshowfinder" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
